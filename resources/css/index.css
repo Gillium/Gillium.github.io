@@ -18,7 +18,7 @@ h1 {
 
 p,
 li {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 a {
@@ -26,9 +26,15 @@ a {
     border: 2px solid blue;
     border-radius: 5px;
     padding: 5px;
+    background-color: blue;
+    color: white;
 }
 
 a:hover {
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: blue;
+}
+
+a:active {
+    font-size: 18px;
 }
